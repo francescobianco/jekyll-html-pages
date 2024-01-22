@@ -1,8 +1,8 @@
 
-
-
 init:
-	@docker run -v $$(pwd):/site bretfisher/jekyll new . --blank --force
+	@docker run \
+		-v $$(pwd):/site \
+		bretfisher/jekyll new . --blank --force
 
 serve:
 	@docker run \
