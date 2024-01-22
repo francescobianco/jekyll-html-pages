@@ -3,23 +3,19 @@ layout: default
 title: "Happy Jekylling!"
 ---
 
-# You're ready to go!
-
-Start developing your Jekyll website.
-
-## The Charm of Pure HTML Websites
+# The Charm of Pure HTML Websites
 
 In the ever-evolving landscape of web development, the simplicity and elegance of pure HTML websites harken back to the golden days of the internet. Here are a few reasons why embracing the essence of the early web can be advantageous:
 
-### 1. **Speed and Simplicity**
+## 1. **Speed and Simplicity**
 
 Pure HTML websites are lightweight and load quickly. They eliminate the need for external stylesheets and JavaScript, ensuring a straightforward user experience.
 
-### 2. **Cross-Compatibility**
+## 2. **Cross-Compatibility**
 
 HTML is a universal language understood by all browsers. A website built purely in HTML ensures consistent rendering across different platforms and devices.
 
-### 3. **Nostalgic Aesthetics**
+## 3. **Nostalgic Aesthetics**
 
 There's a certain charm in the nostalgic aesthetics of the early web. Pure HTML websites evoke a sense of simplicity and authenticity, transporting users back to the era of animated GIFs and vibrant tiled backgrounds.
 
