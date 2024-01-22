@@ -22,7 +22,7 @@ This theme supports the use of a remote theme specified in the `_config.yml` fil
 2. Add the following line to specify the remote theme:
 
     ```yaml
-    remote_theme: yafbp/jekyll-html-pages
+    remote_theme: francescobianco/jekyll-html-pages@main
     ```
 
 3. Customize your content in the `_posts` directory.
@@ -38,4 +38,3 @@ Contributions are welcome! If you have any improvements or bug fixes, feel free 
 ## Author
 
 Francesco Bianco ([@yafb](https://www.linkedin.com/in/yafb/))
-
