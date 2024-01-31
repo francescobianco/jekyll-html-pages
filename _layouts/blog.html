@@ -3,11 +3,12 @@ layout: default
 title: Home
 ---
 
+{{ content | markdownify }}
+
 {% for post in paginator.posts %}
     {% include featured-post.html %}
 {% endfor %}
 
-<!-- Pagination links -->
 <div class="pagination">
     {% if paginator.next_page %}
     <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
