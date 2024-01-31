@@ -1,5 +1,13 @@
 # 🌐 Jekyll HTML Pages
 
+<a href="https://jekyll-themes.com/francescobianco/jekyll-html-pages">
+  <img
+    src="https://img.shields.io/badge/featured%20on-JT-red.svg"
+    height="20"
+    alt="Jekyll Themes Shield"
+  />
+</a>
+
 A minimalistic Jekyll theme designed for use on GitHub Pages. This theme embraces absolute simplicity by avoiding the use of CSS, providing a nostalgic experience reminiscent of the early days of the World Wide Web at CERN.
 
 ## Demo
