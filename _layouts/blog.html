@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+{% include header.html %}
+
 {{ content | markdownify }}
 
 {% for post in paginator.posts %}
