@@ -1,6 +1,6 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "jekyll-html-pages" # the name of your site, e.g. ACME Corp.
+url: ""
+baseurl: ""
+title: "🌐 Jekyll HTML Pages"
 
 plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
