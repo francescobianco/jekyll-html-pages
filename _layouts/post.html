@@ -9,8 +9,11 @@ layout: default
         {{ page.title }}
     </h1>
     {% if site.hide_post_date != true %}
-    {% include post-date.html %}
+    {% include post-date.html %} ~
     {% endif %}
+
+    <a href="{{ site.repository }}/edit/main{{ page.path }}" target="_blank">Edit this post</a>
+
     {% if page.image %}
     <div class="featured-image">
         <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
