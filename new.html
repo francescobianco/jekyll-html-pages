@@ -1,7 +1,7 @@
 <script>
 const postTitle = prompt("Post title", "New post!").replace(/"/, '\\"');
 const postSlug = postTitle.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '-').trim();
-const postDate = (new Date()).toISOString();
+const postDate = (new Date()).toISOString().replace(/T/, ' ').replace(/\..+/, '') + ' +0000';
 const postAuthor = 'F.Bianco'
 const repository = 'https://github.com/francescobianco/gnosis.yafb.net'
 const dateSlug = (new Date()).toISOString().split('T')[0]
