@@ -7,7 +7,7 @@
 {% if site.navigation %}
     <nav>
         {% for item in site.navigation %}
-        <a href="{{ item.url }}">{{ item.title }}</a>
+        <a href="{{ item.url }}"{% if item.target %} target="{{ item.target }}"{% endif %}>{{ item.title }}</a>
         {% unless forloop.last %} ~ {% endunless %}
         {% endfor %}
     </nav>

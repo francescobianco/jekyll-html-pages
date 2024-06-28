@@ -16,3 +16,7 @@ navigation:
 
   - title: Contact
     url: /contact.html
+
+  - title: Write new post
+    url: /new.html
+    target: _blank

@@ -1,0 +1,20 @@
+<script>
+const postTitle = prompt("Post title", "New post!").replace(/"/, '\\"');
+const postSlug = postTitle.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '-').trim();
+const postDate = (new Date()).toISOString();
+const postAuthor = 'F.Bianco'
+const repository = 'https://github.com/francescobianco/gnosis.yafb.net'
+const dateSlug = (new Date()).toISOString().split('T')[0]
+const dirUrl = '/new/main/_posts'
+
+const template = `---
+title: "${postTitle}"
+date: ${postDate}
+author: "${postAuthor}"
+---
+
+That's the post...
+`;
+
+window.location.href = repository + dirUrl + '?filename=' + dateSlug + '-' + postSlug + '.md&value=' + encodeURIComponent(template)
+</script>
