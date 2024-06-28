@@ -1,5 +1,5 @@
 <script>
-const postTitle = prompt("Post title", "New post!").replace(/"/, '\\"');
+const postTitle = (prompt("Post title", "New post!")||"").replace(/"/, '\\"') || window.close();
 const postSlug = postTitle.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '-').trim();
 const postDate = (new Date()).toISOString().replace(/T/, ' ').replace(/\..+/, '') + ' +0000';
 const postAuthor = 'F.Bianco'
