@@ -1,7 +1,24 @@
 url: ""
 baseurl: ""
 title: "🌐 Jekyll HTML Pages"
+author: "F.Bianco"
 
 plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 paginate: 5
+
+navigation:
+  - title: Home
+    url: /
+
+  - title: About
+    url: /about.html
+
+  - title: Blog
+    url: /blog.html
+
+  - title: Portfolio
+    url: /portfolio.html
+
+  - title: Contact
+    url: /contact.html

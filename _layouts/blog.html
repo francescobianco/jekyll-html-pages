@@ -7,9 +7,25 @@ title: Home
 
 {{ content | markdownify }}
 
-{% for post in paginator.posts %}
-    {% include featured-post.html %}
+<table>
+{% for page in paginator.posts %}
+    <tr>
+        {% if site.hide_post_date != true %}
+        <td>
+            {% include post-date.html %}
+        </td>
+        {% endif %}
+        <th>
+            <a href="{{ site.github.url }}{{ page.url }}">
+                {% if page.image %}
+                <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
+                {% endif %}
+                <span>{{ page.title }}</span>
+            </a>
+        </th>
+    </tr>
 {% endfor %}
+</table>
 
 <div class="pagination">
     {% if paginator.next_page %}

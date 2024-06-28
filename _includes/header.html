@@ -3,3 +3,14 @@
 </header>
 
 <hr>
+
+{% if site.navigation %}
+    <nav>
+        {% for item in site.navigation %}
+        <a href="{{ item.url }}">{{ item.title }}</a>
+        {% unless forloop.last %} ~ {% endunless %}
+        {% endfor %}
+    </nav>
+
+    <hr>
+{% endif %}
