@@ -14,11 +14,5 @@ navigation:
   - title: About
     url: /about.html
 
-  - title: Blog
-    url: /blog.html
-
-  - title: Portfolio
-    url: /portfolio.html
-
   - title: Contact
     url: /contact.html

@@ -11,11 +11,14 @@ title: Home
 {% for page in paginator.posts %}
     <tr>
         {% if site.hide_post_date != true %}
-        <td>
+        <td align="right">
             {% include post-date.html %}
         </td>
+        <td>
+            ~
+        </td>
         {% endif %}
-        <th>
+        <th align="left">
             <a href="{{ site.github.url }}{{ page.url }}">
                 {% if page.image %}
                 <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
